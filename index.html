@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Reproductor de audios</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Reproductor de Audio</h1>
+        <div class="listado-canciones">
+            <div class="cancion">
+                <div class="titulo">
+                    Big River
+                </div>
+                <div class="play" id="BigRiver">
+                    <span class="material-icons" title="Reproducir">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons" title="Pausar">
+                        cancel
+                    </span>
+                </div>
+                <div class="descargar">
+                    <a href="./Audios/BigRiver.mp3" download="">
+                        <span class="material-icons" title="Descargar">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cancion">
+                <div class="titulo">
+                    Savior
+                </div>
+                <div class="play" id="Savior">
+                    <span class="material-icons" title="Reproducir">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons" id="Pausar">
+                        cancel
+                    </span>
+                </div>
+                <div class="descargar">
+                    <a href="./Audios/Savior.mp3" download="">
+                        <span class="material-icons" title="Descargar">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cancion">
+                <div class="titulo">
+                    Searching For Time 
+                </div>
+                <div class="play" id="SearchingForTime" title="Reproducir">
+                        <span class="material-icons">
+                            play_circle
+                        </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons" title="Pausar">
+                        cancel
+                    </span>
+                </div>
+                <div class="descargar">
+                    <a href="./Audios/SearchingForTime.mp3" download="">
+                        <span class="material-icons" title="Descargar">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cancion">
+                <div class="titulo">
+                    Spirit Riders
+                </div>
+                <div class="play" id="SpiritRiders">
+                    <span class="material-icons" title="Reproducir">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons" title="Pausar">
+                        cancel
+                    </span>
+                </div>
+                <div class="descargar">
+                    <a href="./Audios/SpiritRiders.mp3" download="">
+                        <span class="material-icons" title="Descargar">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <input type="range" max="1" min="0" step="0.1" class="volumen">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
